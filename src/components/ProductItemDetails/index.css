@@ -1,0 +1,170 @@
+/* Write your CSS here */
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.productDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+
+@media screen and (max-width: 768px) {
+  .productDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .descriptionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80vw;
+    padding: 15px;
+  }
+}
+
+.similarProductContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vw;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .similarProductContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 75vw;
+    padding: 15px;
+    padding-left: 0px;
+  }
+  .NotFoundImage {
+    height: 200px;
+  }
+}
+
+.imageUrl {
+  height: 380px;
+  width: 300px;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.headerTitle {
+  color: #12022f;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: #12022f;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  font-size: 10px;
+  color: #12022f;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #3b82f6;
+  background-color: #3b82f6;
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.star {
+  height: 12px;
+  width: 12px;
+}
+
+.description {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+
+.ABClass {
+  color: #12022f;
+  font-weight: 500;
+}
+
+.AB {
+  color: #171f46;
+  font-size: 13px;
+}
+
+.bsLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  margin-bottom: 12px;
+}
+
+.buttonAdd {
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 10px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.pmButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.cartCount {
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .NotFoundImage {
+    height: 350px;
+  }
+}
+
+.continueButton {
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'ROBOTO';
+  cursor: pointer;
+}

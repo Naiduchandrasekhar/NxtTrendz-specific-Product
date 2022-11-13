@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.similarImageUrl {
+  height: 250px;
+  width: 250px;
+}
+
+.prClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
